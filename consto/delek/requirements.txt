@@ -1,0 +1,21 @@
+# DO NOT include azure-functions-worker in this file
+# The Python Worker is managed by Azure Functions platform
+# Manually managing azure-functions-worker may cause unexpected issues
+
+azure-functions
+azure-search-documents==11.5.1
+azure-core
+azure-storage-blob
+requests
+python-docx
+PyPDF2
+openai
+openpyxl
+Pillow
+python-dotenv
+pydantic
+azure-cosmos
+azure-data-tables
+spacy==3.8.2
+pandas
+swarm @ git+https://github.com/openai/swarm.git@9db581cecaacea0d46a933d6453c312b034dbf47
