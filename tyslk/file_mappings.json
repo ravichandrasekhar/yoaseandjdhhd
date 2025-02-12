@@ -1,0 +1,23 @@
+{
+    "azure": [
+        "Services/Text_Extraction/Azure_Service.py",
+        "Services/Text_Extraction/iText_Extraction.py",
+        "Factory/text_extract_factory.py"
+    ],
+    "aws": [
+        "Services/Text_Extraction/Aws_Service.py",
+        "Services/Text_Extraction/iText_Extraction.py",
+        "Factory/text_extract_factory.py"
+    ],
+    "gcp": [
+        "Services/Text_Extraction/Gcp_Service.py",
+        "Services/Text_Extraction/iText_Extraction.py",
+        "Factory/text_extract_factory.py"
+    ],
+    "opensource":[
+        "Services/Text_Extraction/Opensource_Service.py",
+        "Services/Text_Extraction/iText_Extraction.py",
+        "Factory/text_extract_factory.py"
+    ]
+   
+}
